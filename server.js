@@ -17,7 +17,10 @@ const  dbConnect = require("./dbConnect");
 dbConnect();
 
 //routes
+app.get("/nn",(req,res)=>res.send("hello"));
 app.use("/user",require("./routes/user"));
+app.use("/course",require("./routes/Course"));
+app.use("/reservation",require("./routes/reservation"));
 
 app.use(passport.initialize());
 app.listen(process.env.PORT ,(err)=> err 

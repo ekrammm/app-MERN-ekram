@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
+    "carousel": "^0.0.3",
     "concurrently": "^7.3.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
@@ -21,6 +23,7 @@
     "mongoose": "^6.4.6",
     "nodemon": "^2.0.19",
     "passport": "^0.6.0",
-    "passport-jwt": "^4.0.0"
+    "passport-jwt": "^4.0.0",
+    "react-multi-carousel": "^2.8.2"
   }
 }
